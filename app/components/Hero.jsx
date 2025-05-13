@@ -5,7 +5,7 @@ import pattern from '../../public/pattern.jpg'
 const Hero = () => {
   return (
     <header className='relative bg-background text-white h-svh min-h-[480px] overflow-hidden px-4 grid justify-center items-center text-center'>
-        <div className='absolute inset-0 mix-blend-luminosity bg-size-[960px] bg-center opacity-8 bg-no-repeat' style={{backgroundImage: `url(/pattern.jpg)`}}></div>
+        <div className='absolute inset-0 mix-blend-luminosity bg-size-[1098px] bg-center opacity-8 bg-no-repeat' style={{backgroundImage: `url(/pattern.jpg)`}}></div>
         <div className='relative z-10'>
             <h1 className='text-4xl md:text-5xl max-w-2xl'>
                 <span className='font-extralight'>Hello, I&apos;m </span>
