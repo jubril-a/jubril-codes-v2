@@ -1,11 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #0E0E0E;
+  --color-background: #080808;
+  /* #0e0e0e; */
   --color-primary: #F4EA2C;
   --color-secondary: #0A64F2;
 }
 
-/* body {
-  color: #918f8f;
-} */
+.radial-mask {
+  mask: radial-gradient(#000, #0000)
+}
