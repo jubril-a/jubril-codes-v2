@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import LinkButton from './LinkButton'
-import pattern from '../../public/pattern.jpg'
 
 const Hero = () => {
   return (
