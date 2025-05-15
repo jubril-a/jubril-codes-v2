@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import LinkButton from './LinkButton'
+import LinkButton from '../components/LinkButton'
 
 const Hero = () => {
   return (

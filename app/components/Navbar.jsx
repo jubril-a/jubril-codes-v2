@@ -7,8 +7,8 @@ const Navbar = () => {
   const [isVisible, setVisible] = useState(false)
 
   return (
-    <div className="absolute z-999 w-full sm:pt-8 sm:px-4">
-        <nav className="bg-[#080808ee] backdrop-blur-xs px-10 max-[480px]:px-5 py-4 flex items-center flex-wrap justify-between max-w-5xl mx-auto sm:rounded-[8px] text-[14px] text-white">
+    <div className="fixed z-999 w-full sm:pt-2 sm:px-4">
+        <nav className="bg-[#080808d2] backdrop-blur-sm px-10 max-[480px]:px-5 py-4 flex items-center flex-wrap justify-between max-w-7xl mx-auto sm:rounded-[8px] text-[14px] text-white">
             <span className="text-xl font-extralight"><span className="font-bold text-primary">Jubril</span>.codes</span>
             <div className={"md:flex gap-4 items-center " + `${isVisible ? "grid order-1 w-full mt-16 gap-14 py-6 text-center" : "hidden"}`}>
                 <a href="#about" className="opacity-70 hover:opacity-100">AboutMe</a>
