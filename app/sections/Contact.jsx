@@ -14,7 +14,7 @@ const Contact = () => {
             <label htmlFor="message"><span className="text-gray-300">Your Message</span><br />
                 <textarea className="border text-white p-2 bg-[#121212] border-[#ffffff17] hover:border-[#ffffff33] focus:border-[#f4ea2ce1] outline-0 block mt-2 h-36 rounded-lg w-full" id="name" name="message"></textarea>
             </label>
-            <input className="bg-primary text-background p-3 rounded-lg font-medium" type="submit" value="Send Message" />
+            <input className="bg-primary hover:bg-secondary text-background hover:text-white p-3 rounded-lg font-medium" type="submit" value="Send Message" />
         </form>
     </Section>
   )
