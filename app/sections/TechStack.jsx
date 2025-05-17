@@ -8,7 +8,7 @@ const TechStack = () => {
     <Section>
         <h2>TECH STACK_</h2>
         <Grid>
-            {stack.map((tech) => <SkillBox lang={tech.lang} />)}
+            {stack.map((tech) => <SkillBox key={tech.key} lang={tech.lang} imgs={tech.imgs} />)}
         </Grid>
         <div className="border-t-1 border-dotted border-[#ffffff33] max-w-3xl mx-auto"></div>
         <p className="center text-[#ffffff79] text-center mt-6">I&apos;m also quick to learn and adapt to new technologies</p>

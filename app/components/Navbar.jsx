@@ -14,6 +14,7 @@ const Navbar = () => {
                 <a href="#about" className="opacity-70 hover:opacity-100">AboutMe</a>
                 <a href="#projects" className="opacity-70 hover:opacity-100">Projects</a>
                 <a href="#stack" className="opacity-70 hover:opacity-100">TechStack</a>
+                <a href="#experience" className="opacity-70 hover:opacity-100">Experience</a>
                 <a href="#contact" className="opacity-70 hover:opacity-100">ContactMe</a>
                 <a href="https://github.com/jubril-a" className="invert-100 opacity-70 hover:opacity-100 md:ml-4">
                   <Image src="/github.png" alt="" width={22} height={22} />

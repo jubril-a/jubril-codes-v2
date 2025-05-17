@@ -1,6 +1,6 @@
 export const projects = [
     {
-        key: "",
+        key: "coach",
         title: "Safe with Muhinat",
         industry: "Mental Health Coach Website",
         description: "",
@@ -11,7 +11,7 @@ export const projects = [
         tech_stack: [],
     },
     {
-        key: "",
+        key: "academy",
         title: "Gatech Academy",
         industry: "Tech Skills Training Website ",
         description: "",
@@ -22,7 +22,7 @@ export const projects = [
         tech_stack: [],
     },
     {
-        key: "",
+        key: "salon",
         title: "Amazing Bunch Salon",
         industry: "Beauty Salon Website",
         description: "",
@@ -34,7 +34,7 @@ export const projects = [
         tech_stack: [],
     },
     {
-        key: "",
+        key: "blog",
         title: "Wikitrips Travel & Tours",
         industry: "Blog Site",
         description: "",
@@ -45,7 +45,7 @@ export const projects = [
         tech_stack: [4],
     },
     {
-        key: "",
+        key: "oil",
         title: "Integral Petroserv Ltd.",
         industry: "Oil & Gas Company Website",
         description: "",
@@ -56,6 +56,7 @@ export const projects = [
         tech_stack: [5],
     },
     {
+        key: "booking",
         title: "Wikitrips Travel and Tours",
         industry: "Appointment Booking Page",
         description: "",
@@ -69,56 +70,56 @@ export const projects = [
 
 export const stack = [
     {
-        key: "",
-        imgs: [],
+        key: "react",
+        imgs: ["/icons/react.png"],
         lang: "React",
         description: ""
     },
     {
-        key: "",
-        imgs: [],
+        key: "typescript",
+        imgs: ["/icons/typescript.png"],
         lang: "TypeScript",
         description: ""
     },
     {
-        key: "",
-        imgs: [],
+        key: "tailwind",
+        imgs: ["/icons/tailwind.png"],
         lang: "Tailwindcss",
         description: ""
     },
     {
-        key: "",
-        imgs: [],
+        key: "html",
+        imgs: ["/icons/html.png", "/icons/css.png", "/icons/javascript.png"],
         lang: "HTML, CSS, JS",
         description: ""
     },
     {
-        key: "",
-        imgs: [],
+        key: "next",
+        imgs: ["/icons/nextjs.png"],
         lang: "Next.js",
         description: ""
     },
     {
-        key: "",
-        imgs: [],
+        key: "sass",
+        imgs: ["/icons/sass.png"],
         lang: "SCSS",
         description: ""
     },
     {
-        key: "",
-        imgs: [],
+        key: "motion",
+        imgs: ["/icons/motion.png"],
         lang: "Framer Motion",
         description: ""
     },
     {
-        key: "",
-        imgs: [],
+        key: "git",
+        imgs: ["/icons/git.png", "/icons/github.png"],
         lang: "Git & Github",
         description: ""
     },
     {
-        key: "",
-        imgs: [],
+        key: "sanity",
+        imgs: ["/icons/sanity.png"],
         lang: "Sanity CMS",
         description: ""
     },
