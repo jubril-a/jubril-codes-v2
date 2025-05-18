@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <Section id="experience">
         <h2>EXPERIENCE_</h2>
-        <div className="grid min-[860px]:grid-cols-3 max-w-[1200px] mx-auto my-20 bg-[#121212] rounded-2xl border border-[#ffffff1f]">
+        <div className="grid min-[860px]:grid-cols-3 max-w-[1200px] mx-auto mt-20 bg-[#121212] rounded-2xl border border-[#ffffff1f]">
             <div className="text-white p-10">
                 <p className="mb-10">Developed websites for the company and its clients, and taught web development at the company&apos;s academy.</p>
                 <Image className="mb-3" src={"/gatech-logo.png"} width={100} height={33} alt="" />
