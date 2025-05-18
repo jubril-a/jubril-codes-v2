@@ -4,8 +4,8 @@ const About = () => {
   return (
     <Section id="about">
         <h2>ABOUT ME_</h2>
-        <div className="flex max-[960px]:flex-col gap-8 w-fit mx-auto mt-20 items-start lg:items-center">
-          <div className="w-full max-w-[300px] min-[960px]:w-[360px] aspect-[1/1] overflow-hidden rounded-xl bg-white bg-[url(/jubril.jpg)] bg-cover bg-center">
+        <div className="flex max-[600px]:flex-col gap-4 lg:gap-8 w-fit mx-auto mt-15 min-w-[820px]:mt-20 items-start lg:items-center">
+          <div className="w-full min-w-[100px] max-w-[320px] min-[960px]:w-[360px] aspect-[1/1] overflow-hidden rounded-xl bg-white bg-[url(/jubril.jpg)] bg-cover bg-center">
           </div>
           <div className="max-w-[640px]">
             <p className="text-[#ffffffbe] px-1 mb-4">I&apos;m a frontend developer with a background in design and over two years of experience building dynamic, user-friendly websites and applications. I&apos;m proficient in React and Next.js, and I&apos;m passionate about performance optimization and writing clean, maintainable code.</p>
