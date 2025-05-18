@@ -14,7 +14,7 @@ import { projects } from '../data'
             )}
         </Grid>
         <div className="border-t-1 border-dotted border-[#ffffff33] max-w-3xl mx-auto"></div>
-        <p className="center text-[#ffffff79] text-center mt-6">Have a project you&apos;d like to discuss? <a className="text-[#ffffffda] hover:text-white" href="#message">Send me a Message</a></p>
+        <p className="center text-[#ffffff79] text-center mt-6">Have a project you&apos;d like to discuss? <a className="text-[#ffffffda] hover:text-white hover:underline" href="#message">Send me a Message</a></p>
     </Section>
   )
 }

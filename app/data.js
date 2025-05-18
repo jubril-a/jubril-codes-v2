@@ -90,7 +90,7 @@ export const stack = [
         key: "html",
         imgs: ["/icons/html.png", "/icons/css.png", "/icons/javascript.png"],
         lang: "HTML, CSS & JS",
-        description: "My work is built on a solid foundation of HTML, CSS, and JavaScript, ensuring websites are structured, styled, and interactive."
+        description: "With a strong foundation in HTML, CSS, and JavaScript, I create websites that are properly structured, styled, and responsive to user interactions."
     },
     {
         key: "next",
@@ -108,7 +108,7 @@ export const stack = [
         key: "motion",
         imgs: ["/icons/motion.png"],
         lang: "Framer Motion",
-        description: "Framer Motion allows me to create smooth, interactive animations and transitions that enhance user engagement and bring interfaces to life."
+        description: "I use Framer Motion to create smooth, interactive animations and transitions that enhance user engagement and bring interfaces to life."
     },
     {
         key: "git",
