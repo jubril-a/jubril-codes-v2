@@ -84,7 +84,7 @@ export const stack = [
         key: "tailwind",
         imgs: ["/icons/tailwind.png"],
         lang: "Tailwindcss",
-        description: "Tailwind CSS enables me to style interfaces efficiently with utility-first classes that keep my markup clean and easy to manage."
+        description: "Tailwind CSS enables me to style interfaces efficiently with utility-first classes that keeps my markup clean and easy to manage."
     },
     {
         key: "html",
@@ -96,7 +96,7 @@ export const stack = [
         key: "next",
         imgs: ["/icons/nextjs.png"],
         lang: "Next.js",
-        description: "I can use Next.js build fast, SEO-friendly React applications with server-side rendering and easy routing for smooth user experiences."
+        description: "I can use Next.js to build fast, SEO-friendly React applications with server-side rendering and easy routing for smooth user experiences."
     },
     {
         key: "sass",
