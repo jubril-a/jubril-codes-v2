@@ -3,7 +3,7 @@ import Section from "../components/Section"
 
 const Experience = () => {
   return (
-    <Section>
+    <Section id="experience">
         <h2>EXPERIENCE_</h2>
         <div className="grid min-[860px]:grid-cols-3 max-w-[1200px] mx-auto my-20 bg-[#121212] rounded-2xl">
             <div className="text-white p-10">

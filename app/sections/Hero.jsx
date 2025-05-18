@@ -12,7 +12,7 @@ const Hero = () => {
           </h1>
           <p className='pt-3 pb-4 opacity-60 text-[20px] md:text-[26px]'>I'm a frontend web developer.</p>
           <div className='flex gap-4 w-fit mx-auto'>
-              <LinkButton label="Message Me" href="#contact" />
+              <LinkButton label="Message Me" href="#message" />
               <LinkButton label="Download CV" href="/jubril_cv.pdf" />
           </div>
       </div>

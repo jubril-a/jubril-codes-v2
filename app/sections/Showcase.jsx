@@ -6,11 +6,11 @@ import { projects } from '../data'
 
   const Showcase = () => {
   return (
-    <Section>
+    <Section id="projects">
         <h2>SHOWCASE_</h2>
         <Grid>
             { projects.map((project) =>
-              (<ProjectCard key={project.key} heading={project.title} industry={project.industry} imgUrl={project.img} />)
+              (<ProjectCard key={project.key} heading={project.title} repoUrl={project.repo} liveUrl={project.live_site} industry={project.industry} imgUrl={project.img} />)
             )}
         </Grid>
         <div className="border-t-1 border-dotted border-[#ffffff33] max-w-3xl mx-auto"></div>

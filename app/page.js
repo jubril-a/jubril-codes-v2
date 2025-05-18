@@ -5,6 +5,7 @@ import Showcase from "./sections/Showcase";
 import TechStack from "./sections/TechStack";
 import Experience from "./sections/Experience";
 import Contact from "./sections/Contact";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <TechStack />
       <Experience />
       <Contact />
+      <Footer />
     </>
   );
 }

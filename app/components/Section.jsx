@@ -1,6 +1,6 @@
-const Section = ({children}) => {
+const Section = ({children, id}) => {
   return (
-    <section className="py-32 px-3 sm:px-8 bg-background">
+    <section id={id} className="py-32 px-3 sm:px-8 bg-background">
         { children }
     </section>
   )
