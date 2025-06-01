@@ -12,7 +12,7 @@ const Experience = () => {
                 <span className="text-sm text-[#ffffffbe]">Frontend Developer & Tutor</span>
             </div>
             <div className="text-white p-8 min-[520]:p-10 max-[860px]:border-y min-[860px]:border-x border-[#ffffff1f]">
-                <p className="mb-10">Designed flyers for print and social media, and created branded materials such as posters, business cards, and letterheads for company use.</p>
+                <p className="mb-10">Designed flyers for print and social media, also created branded materials such as posters, business cards, and letterheads for company use.</p>
                 <Image className="mb-3" src={"/gatech-logo.png"} width={100} height={33} alt="" />
                 <span className="text-sm text-[#ffffffbe]">Graphic Designer</span>
             </div>
