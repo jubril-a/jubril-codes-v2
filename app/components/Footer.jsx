@@ -11,8 +11,8 @@ const Footer = () => {
                 <a href="https://www.instagram.com/jubrilabdul_/"><Image className="invert-60 hover:invert-100" src="/instagram.png" width={18} height={18} alt="" /></a>
                 <a href="https://x.com/jubrilabdul001"><Image className="invert-60 hover:invert-100" src="/twitter.png" width={18} height={18} alt="" /></a>
             </div>
-            <a href="https://github.com/jubril-a/jubril-codes-v2" className="flex gap-2 hover:opacity-60">
-              <Image src="/icons/love.png" width={20} height={20} alt="" />
+            <a href="https://github.com/jubril-a/jubril-codes-v2" className="flex gap-2 items-center hover:opacity-60">
+              <Image className="drop-shadow-[0_0_2em_#F4EA2A,0_0_1em_#F4EA2A]" src="/icons/love.png" width={24} height={24} alt="" />
               <p>Made with passion and Next.js.</p>
             </a>
         </div>
