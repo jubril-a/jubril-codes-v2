@@ -1,5 +1,16 @@
 export const projects = [
     {
+        key: "exclusive",
+        title: "Exclusive Store",
+        industry: "E-commerce Website",
+        description: "",
+        img: "/exclusive.jpg",
+        video: "",
+        live_site: "https://exclusive-next-fawn.vercel.app/",
+        repo: "https://github.com/jubril-a/exclusive-next",
+        tech_stack: [6],
+    },
+    {
         key: "coach",
         title: "Safe with Muhinat",
         industry: "Mental Health Coach Website",
@@ -53,17 +64,6 @@ export const projects = [
         live_site: "https://integralpetroserv.vercel.app/",
         repo: "https://github.com/jubril-a/integralpetroserv",
         tech_stack: [5],
-    },
-    {
-        key: "booking",
-        title: "Wikitrips Travel and Tours",
-        industry: "Appointment Booking Page",
-        description: "",
-        img: "/wiki-form.jpg",
-        video: "",
-        live_site: "https://new-wikitrips.vercel.app/session.html",
-        repo: "https://github.com/jubril-a/New-Wikitrips",
-        tech_stack: [6],
     },
 ]
 
